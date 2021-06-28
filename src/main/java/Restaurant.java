@@ -69,7 +69,6 @@ public class Restaurant {
         int total = 0;
         for(String item: cartItems) {
            total += findItemByName(item).getPrice();
-           System.out.println(findItemByName(item).getPrice());
         }
         return total;
     }
