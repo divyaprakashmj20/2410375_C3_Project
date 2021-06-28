@@ -18,6 +18,7 @@ public class Item {
                 ;
     }
 
+    //committing again for Part 3: Solution removing Sysout
     public Integer getPrice(){
         return price;
     }

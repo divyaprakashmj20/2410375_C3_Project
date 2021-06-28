@@ -65,6 +65,7 @@ public class Restaurant {
         return name;
     }
 
+    //committing again for Part 3: Solution removing Sysout
     public Integer calculateTotal(ArrayList<String> cartItems){
         int total = 0;
         for(String item: cartItems) {
